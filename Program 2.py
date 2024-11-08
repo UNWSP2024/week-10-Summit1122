@@ -25,8 +25,8 @@ def main():
 
     car = Car(year,make)
     print("List of speed changing: ")
-    
-    for i in range(6):
+
+    for i in range(5):
         car.accelerate(1)
         print(car.get_speed())
         car.brake(1)
